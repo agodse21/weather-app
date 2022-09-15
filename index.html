@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Sasta Weather</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body onload="getlocation()">
+    <h1 id="head_h1">weather check</h1>
+    <hr />
+
+    <div id="get_input">
+      <input type="text" id="city" placeholder="City Name" />
+      <button onclick="wheatherData()" id="btn_check">Check</button>
+    </div>
+    <h1 id="title">Search Weather of Your City</h1>
+    <div id="main">
+     
+      <div id="temp">
+        <div>
+          <img src="" id="city_img" alt="" />
+          <h2 id="cityname"></h2>
+        </div>
+        <div>
+          <img src="" id="current_temp_img" alt="" />
+          <p id="current_temp"></p>
+        </div>
+        <div>
+          <img src="" id="min_temp_img" alt="" />
+          <p id="min_temp"></p>
+        </div>
+        <div>
+          <img src="" id="max_temp_img" alt="" />
+          <p id="max_temp"></p>
+        </div>
+      <div><img src="" id="wind_img" alt="">
+        <p id="wind"></p></div>
+        <div><img src="" id="cloud_img" alt="">
+          <p id="cloud"></p></div>
+      </div>
+      <div id="map">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src=""></iframe>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+    <div id="weather_7day"></div>
+
+  </body>
+</html>
+<script src="index.js"></script>
