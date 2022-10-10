@@ -1,5 +1,29 @@
-# Getting Started with Create React App
+<h1 align="center"> Weather App</h1>
 
+![Untitled-2](https://user-images.githubusercontent.com/103682371/194915718-018487a7-9e3e-4788-bcd9-eccc9a2b691f.jpg)
+
+<h1 align="center"> Web application to show the current location weather,search city weather and upcoming week weather forecast.</h1>
+
+<br />
+<p align="center">
+    <img src="https://img.shields.io/badge/React_(17.0.2)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
+    <img src="https://img.shields.io/badge/Redux_(4.1.2)-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux" />
+    <img src="https://img.shields.io/badge/Chakra%20UI-3bc7bd?style=for-the-badge&logo=chakraui&logoColor=white" alt="chakra-ui"/>
+    <img src="https://img.shields.io/badge/Rest_API-02303A?style=for-the-badge&logo=react-router&logoColor=white" alt="restAPI"/>
+  </p>
+  
+  ## 🚀 Features
+- Saving the weather data in redux-store and session-storage to reduce the dependency of network requests
+- Search weather details according to the city
+- Detect your current location for displaying weather data
+- Shows a map of that location
+- Sync data to get the latest updated details of the current weather
+- Toast notification for every action
+- Pop up modal to display extra details of seven-day forecast weather
+- Cool zoom-in zoom-out animations 
+- Responsive for every screen size.
+
+<br/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
