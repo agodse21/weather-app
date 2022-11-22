@@ -15,7 +15,7 @@
   
   ## Live
   
-  https://netlify-thinks-agodse9-gmail-com-is-great-686c3.netlify.app/
+  https://agodse21.github.io/weather-app/
   
   ## Demo
   
