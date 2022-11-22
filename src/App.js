@@ -9,7 +9,6 @@ function App() {
   return (
     <Box  fontFamily="poppins">
 <Weather />
-
     </Box>
     
   );
